@@ -98,6 +98,12 @@ app.post("/users", (request, response) => {
   return response.status(201).json(user);
 });
 
+app.get("/users", checksExistsUserAccount, (request, response) => {
+  const { user } = request;
+
+  return response.status(200).json(user);
+});
+
 app.get("/users/:id", findUserById, (request, response) => {
   const { user } = request;
 
