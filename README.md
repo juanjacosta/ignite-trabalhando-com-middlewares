@@ -6,12 +6,8 @@ Desafio para fazer o CRUD de todos de usuários
 
 - [x] checksExistsUserAccount
 
-- [ ] checksCreateTodosUserAvailability
+- [x] checksCreateTodosUserAvailability
 
-- [ ] checksTodoExists
+- [x] checksTodoExists
 
-
-- [ ] findUserById
-
-
-
+- [x] findUserById
